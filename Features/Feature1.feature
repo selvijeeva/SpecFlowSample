@@ -7,7 +7,7 @@ Scenario: Search for TestersTalk
 	When Enter the URL
 	Then Search for TestersTalk
 
-	@TestersTalk
+@TestersTalk
 Scenario: Search for TestersTalk2
 	Given Open the browser
 	When Enter the URL

@@ -420,4 +420,7 @@ mono_crash.*
 Thumbs.db
 ehthumbs.db
 
+# Misc
+*.vsidx
+
 # Folder config file
