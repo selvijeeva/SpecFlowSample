@@ -26,8 +26,6 @@ namespace SpecFlowProject1.StepDefinitions
         {
             driver.FindElement(By.XPath("//input[@id='search']")).SendKeys("Testers Talk");
             driver.FindElement(By.XPath("//input[@id='search']")).SendKeys(Keys.Enter);
-
-            Thread.Sleep(2000);
             driver.Quit();
         }
 
